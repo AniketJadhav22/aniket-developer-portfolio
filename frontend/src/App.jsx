@@ -124,7 +124,8 @@ function App() {
             <p className="hero-description">Java Full Stack Developer focused on building reliable backend systems and clean, responsive user experiences.</p>
             <div className="hero-actions">
               <a className="button button-primary" href="#projects">Explore my work <ArrowRight size={17} /></a>
-              <a className="button button-ghost" href="/Aniket-Jadhav-Resume.pdf" download><Download size={17} /> Download resume</a>
+              {/* <a className="button button-ghost" href="/Aniket-Jadhav-Resume.pdf" download><Download size={17} /> Download resume</a> */}
+              <a className="button button-ghost" href="/Aniket-Jadhav-Resume.pdf" download="Aniket-Jadhav-Resume.pdf"> <Download size={17} /> Download resume </a>
             </div>
             <div className="hero-socials">
               <a href={github} target="_blank" rel="noreferrer" aria-label="GitHub"><Github size={18} /></a>
